@@ -20,6 +20,10 @@
 }
 #result{
     width: 95%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 3rem;
     height: 80px;
     margin: auto;
     margin-top: 3%;
@@ -35,6 +39,10 @@
     grid-gap: 2px;
     grid-template-columns: auto auto auto auto;
     background-color: transparent;
+}
+
+#grid-container:hover{
+    cursor: pointer;
 }
 .grid-item{
     text-align: center;
